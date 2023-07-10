@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+}
+.banner-tittle{
+   color: #272727;
+   font-size: 80px;
+   font-weight: 800;
+    max-width: 708px;
+}
