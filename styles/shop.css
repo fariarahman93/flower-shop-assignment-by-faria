@@ -1,9 +1,51 @@
 .header{
     display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    justify-content:center;
 }
 .banner-tittle{
    color: #272727;
    font-size: 80px;
    font-weight: 800;
     max-width: 708px;
+    margin-bottom: 0px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    max-width: 634px;
+    margin-bottom: 0;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-top: 52px;
+    border: 0;
+}
+.banner .profile-picture{
+    width: 635px;
+
+}
+.section-tittle{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 178px;
+    margin-bottom: 0;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    padding-right: 670px;
+    padding-left: 670px;
 }
