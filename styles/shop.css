@@ -2,6 +2,8 @@
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content:center;
+    gap: 120px;
+    padding-top: 80px;
 }
 .text-primary{
     color: #E55473;
@@ -15,7 +17,7 @@
 }
 .banner-description{
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400;
     margin-top: 32px;
     max-width: 634px;
@@ -65,7 +67,42 @@
 }
 .social-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
+}
+.featured1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-right:78px;
+    padding-left:76px;
+    padding-top: 110px;
+    padding-bottom: 0px;
+    
+}
+.featured2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-right:47px;
+    padding-left:47px;
+    padding-top: 117px;
+    padding-bottom: 0px;
+}
+.featured3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-right:75x;
+    padding-left:55px;
+    padding-top: 110px;
+    padding-bottom: 0;
+}
+.caption1{
+    display: block;
+}
+.caption2{
+    display: block;
+}
+.caption3{
+    display: block;
 }
 .figcaption{
     color: #272727;
@@ -74,6 +111,10 @@
     font-weight: 700;
     text-decoration-line: underline;
     margin-bottom: 128px;
+}
+.featured-image{
+    width: 370px;
+    height: 370px;
 }
 .contact{
     display: flex;
@@ -111,3 +152,60 @@
     justify-content: center;
     gap: 24px;
 }
+.another-contact{
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 128px 240px;
+    border-radius: 8px;
+}
+.email{
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 121px;
+    width: 80%;
+    border: 0;
+    margin: auto;
+}
+.contact1{
+    display: flex;
+}
+.footer{
+    background: #111010;
+
+    
+}
+.footer-tittle{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 128px;
+}
+.span-style{
+    color: #FFFFFF;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 0;
+
+}
+.footer-final{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    padding-bottom: 128px;
+}
+   
