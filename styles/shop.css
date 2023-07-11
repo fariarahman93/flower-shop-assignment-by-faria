@@ -3,6 +3,9 @@
     background: rgba(229, 84, 115, 0.10);
     justify-content:center;
 }
+.text-primary{
+    color: #E55473;
+}
 .banner-tittle{
    color: #272727;
    font-size: 80px;
@@ -48,4 +51,27 @@
     margin-top: 24px;
     padding-right: 670px;
     padding-left: 670px;
+}
+.main-part{
+    justify-content: center;
+}
+.main{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    
+}
+.main-picture{
+    width: 318px;
+}
+#sign-up{
+    text-align: center;
+    margin-top: 32px;
+    margin-right: 417px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
