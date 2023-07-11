@@ -2,7 +2,7 @@
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     justify-content: center;
-    gap: 120px;
+    gap: 60px;
     padding-top: 80px;
 }
 .container {
@@ -15,7 +15,7 @@
 
 .banner-tittle {
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     max-width: 708px;
     margin-bottom: 0px;
@@ -42,7 +42,7 @@
 }
 
 .banner .profile-picture {
-    width: 635px;
+    width: 500px;
 
 }
 
